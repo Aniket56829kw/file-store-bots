@@ -22,9 +22,9 @@ def is_enabled(value, default):
 
       
 # Owner Information
-API_ID = int(environ.get("API_ID", "29640476"))
-API_HASH = environ.get("API_HASH", "824d5b93ac8c8fddcf4088a67ecd5222")
-ADMINS = int(environ.get("ADMINS", "6138367360"))
+API_ID = int(environ.get("API_ID", "23935817"))
+API_HASH = environ.get("API_HASH", "13983bc27b2d1d9ed69e1e104487e5e9")
+ADMINS = int(environ.get("ADMINS", "5232142502"))
 
 # Database Information
 CLONE_DB_URI = environ.get("CLONE_DB_URI", "mongodb+srv://infotechhero890:7c2qvHdJUYqTOaMa@cluster0.veojhex.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
@@ -34,8 +34,8 @@ DB_NAME = environ.get("DB_NAME", "vjbotz")
 
 
 # Bot Information
-BOT_TOKEN = environ.get("BOT_TOKEN", "7097361555:AAHOhbFWGflLqJQcY5vWleTU-iXvfai_rXs")
-BOT_USERNAME = environ.get("BOT_USERNAME", "Anime_file_store1_bot") # your bot username without @
+BOT_TOKEN = environ.get("BOT_TOKEN", "7499188381:AAEgyatf60bYCa4F0qmKRV31_gPQUrw7tgY")
+BOT_USERNAME = environ.get("BOT_USERNAME", "AJ_File_Store_Bot") # your bot username without @
 PICS = (environ.get('PICS', 'https://te.legra.ph/file/66604e5911df5a0c43ffa.jpg https://graph.org/file/f5a26ac21b060d5787ea3.jpg https://graph.org/file/30539d8f1fc92423d6a19.jpg https://graph.org/file/701ff72fb43d85e073f03.jpg')).split() # Bot Start Picture
 
 # Auto Delete Information
@@ -43,12 +43,12 @@ AUTO_DELETE = int(environ.get("AUTO_DELETE", "30")) # Time in Minutes
 AUTO_DELETE_TIME = int(environ.get("AUTO_DELETE_TIME", "1800")) # Time in Seconds
 
 # Channel Information
-LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1002005121747"))
-FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '-1002067183105')).split()]
+LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1002327266227"))
+FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '-1002253374879')).split()]
 
-# Don't Remove Credit Tg - @VJ_Botz
-# Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+# Don't Remove Credit Tg - @AJ_TVSERIAL
+# Join TG CHANNEL https://t.me/AJ_TVSERIAL
+# Ask Doubt on telegram 
 
 # File Caption Information
 CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", f"{script.CAPTION}")
